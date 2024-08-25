@@ -1,0 +1,15 @@
+com\epigestion\epi\EpiApplication.class
+com\epigestion\epi\Repositories\IEmpleadoRepository.class
+com\epigestion\epi\Models\Empleado.class
+com\epigestion\epi\Repositories\IEpiRepository.class
+com\epigestion\epi\Controllers\EmpleadoController.class
+com\epigestion\epi\DTO\EntregaEpiDTO.class
+com\epigestion\epi\Services\EpiService.class
+com\epigestion\epi\DTO\EntregarDTO.class
+com\epigestion\epi\Services\EmpleadoService.class
+com\epigestion\epi\Models\EntregaEpi.class
+com\epigestion\epi\Controllers\EpiControllers.class
+com\epigestion\epi\Controllers\EntregaEpiController.class
+com\epigestion\epi\Services\EntregaEpiService.class
+com\epigestion\epi\Models\Epi.class
+com\epigestion\epi\Repositories\IEntregaEpiRepository.class
