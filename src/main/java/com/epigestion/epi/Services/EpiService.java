@@ -28,9 +28,9 @@ public class EpiService {
         try{
             Optional<Epi> epi = iEpiRepository.findById(id);
             if(!epi.isPresent()){
-           return null;
+           throw new RuntimeException("Error al obtener el id del epi");
             }
-            iEpiRepository.deleteById(id);
+            iEpiRepository.findById(id);
             return epi.get();
 
         }catch (Exception e){
